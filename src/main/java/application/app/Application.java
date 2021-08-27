@@ -17,6 +17,7 @@ import org.springframework.util.StringUtils;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+
 @SpringBootApplication
 @ComponentScan({"com.ibm.cloud_native_toolkit.*", "com.ibm.health", "com.ibm.hello"})
 public class Application extends SpringBootServletInitializer {
